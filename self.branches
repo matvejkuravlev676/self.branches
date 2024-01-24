@@ -1,0 +1,4 @@
+class GitRepository:
+    def __init__(self):
+        self.branches = {'master': []}
+        self.current_branch = 'master'
